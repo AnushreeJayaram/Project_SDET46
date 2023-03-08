@@ -22,7 +22,7 @@ public class FetchDataFromExcel3 {
 
 		String expTestScriptName = "SelectOrganizationListTest";
 		String expKey="orgName";
-		
+//	sop stmt	
 		DataFormatter df = new DataFormatter();
 
 		FileInputStream fis = new FileInputStream("./src/test/resources/Excel/TestData.xlsx");
