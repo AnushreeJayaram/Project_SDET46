@@ -7,6 +7,7 @@ public class DynamixXpath {
 	
 //		Dynamic can be done in 2 ways
 		
+//		This is practice
 //		1st way
 		String linkXpath="//a[.='###']";
 		String xpath = linkXpath.replace("###", "Admin Login");
