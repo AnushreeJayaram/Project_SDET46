@@ -10,7 +10,7 @@ public class EncyptAndDecrypt {
 		String encryptData="YWRtaW4=";   // admin-> YWRtaW4=
 		byte[] byteA = encryptData.getBytes();
 		byte[] byteB = Base64.getDecoder().decode(byteA);
-
+// this is sop stmt
 		String s = new String(byteB);
 		
 		System.out.println(s);
